@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(245 245 245);
+}
+
+.user-info-div {
+  background: white;
+  padding: 20px 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0px 9px 17px -12px rgb(44 44 44 / 59%);
+  -webkit-box-shadow: 0px 9px 17px -12px rgb(44 44 44 / 59%);
+  -moz-box-shadow: 0px 9px 17px -12px rgb(44 44 44 / 59%);
+}
+
+.user-info-div > .user-img > img {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.user-img {
+  margin-bottom: 15px;
+}
+
+i {
+  margin-right: 5px;
+  color: #6c6c6c;
+}
+
+.back-arrow {
+  color: white !important;
+}
+
+.single-repo {
+  background: white;
+  border-radius: 8px;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  box-shadow: rgb(183 183 183 / 59%) 11px 15px 17px -12px;
+  -webkit-box-shadow: rgb(183 183 183 / 59%) 11px 15px 17px -12px;
+  -moz-box-shadow: rgb(183 183 183 / 59%) 11px 15px 17px -12px;
+}
+
+.single-repo > h5 {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.single-repo > h5 > a {
+  color: #0969da;
+}
+
+.single-repo > p {
+  margin-bottom: 24px;
+}
+
+.user-repos > div {
+  padding: 15px;
+}
+
+.count-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.count-row > p {
+  margin-bottom: 0px;
+}
+
+.username {
+  font-weight: 300;
+}
+
+@media screen and (min-width: 650px) {
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .user-info-div > .user-img > img {
+    width: 50%;
+  }
+
+  .user-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .single-repo {
+    background: white;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+    height: 150px;
+  }
+
+  .count-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .user-repo-row {
+    margin-top: 15px;
+  }
+}
