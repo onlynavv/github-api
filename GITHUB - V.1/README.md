@@ -1,15 +1,15 @@
 Click here for the [demo](https://github-api-task-app.netlify.app/)
 
-##H2 Preview
+## Preview
 ![image](https://user-images.githubusercontent.com/77113035/138218920-e36ce1f0-a5d7-4618-bef5-47ed2bbaa4d3.png)
 
-##H2 DOM element creation
+## DOM element creation
 ```
 const mainSection = document.createElement('section')
 document.body.append(mainSection)
 ```
 
-##H2 Async/Await
+## Async/Await
 
 async function, where we try to fetch the github api, where async makes the function asynchronous in the synchronous js world, without freezing the entire program
 
@@ -21,7 +21,7 @@ const getUsers = async() => {
  getUsers()
 ```
 
-##H2 fetch()
+## fetch()
 
 fetch() method to get the response from the api, await will make the function to wait until the promise returns a result, await keyword can be used only inside the async 
 function, otherwise it will throw error, it will make the async function to wait not the entire program
@@ -30,7 +30,7 @@ function, otherwise it will throw error, it will make the async function to wait
 const resp = await fetch('https://api.github.com/users/onlynavv/repos')
 ```
 
-##H2 try..catch
+## try..catch
 
 try catch block - they are generally used to handle errors in the program, to avoid from an error causing your program, try block executes the lines of code, catch block 
 executes the statements if an exception is thrown in the try block
