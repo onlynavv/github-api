@@ -156,7 +156,6 @@ getUsers()
  * preventDefault() to prevent the browser from submitting the form which triggers the reloading of the page
  * onclick the searchUser() function called and here the input value is read and then again a function is called to get 
  * that user details with the search input as parameter
- * a function is called inside a function is called as callback function
  */
 
 const searchUser = async(event) => {
