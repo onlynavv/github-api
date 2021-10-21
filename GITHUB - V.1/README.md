@@ -1,4 +1,4 @@
-Click here for the [demo](https://github-api-task-app.netlify.app/)
+Click here for the [demo V.1](https://github-api-task-app.netlify.app/) please do check [demo v.2](https://github-api-task-v2.netlify.app/) it includes search for the user and fetch all git users and display their repos. Repo link [here](https://github.com/onlynavv/github-api/tree/main/GITHUB%20-%20V.2)
 
 ## Preview
 ![image](https://user-images.githubusercontent.com/77113035/138218920-e36ce1f0-a5d7-4618-bef5-47ed2bbaa4d3.png)
